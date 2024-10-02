@@ -1,0 +1,31 @@
+/* Registration.css */
+.position-relative {
+    position: relative;
+  }
+  
+  .toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .toggle-icon:hover {
+    color: #333;
+  }
+  
+  .submit-btn {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #ff5500;
+  }
+  
