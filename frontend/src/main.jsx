@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import { createRoot } from "react-dom/client"; // Correct import
 import App from "./App.jsx";
 import "react-datepicker/dist/react-datepicker.css"; // Date picker styles
 import "./index.css";
@@ -9,7 +9,8 @@ import store from "./redux/store.js";
 
 const queryClient = new QueryClient();
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+// Use createRoot from react-dom/client
+createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Provider store={store}>
       <QueryClientProvider client={queryClient}>
