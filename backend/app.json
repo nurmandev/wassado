@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name"           : "my-app",
+      "script"         : "dist/index.js",
+      "exec_mode"      : "fork",
+      "instances"      : 1,
+      "env_development": {
+        "NODE_ENV": "development"
+	 },
+      "env_production" : {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
