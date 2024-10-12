@@ -19,7 +19,7 @@ export default function Home() {
         <title>
           Wassado is a multifaceted hospitality establishment designed to cater
           to diverse traveler preferences while championing eco-friendly
-          practices and cultural immersion. The centerpiece of Wassado's
+          practices and cultural immersion. The centerpiece of Wassado&apos;s
           offerings is its 17 unique bungalows, each with its own character and
           charm, providing accommodation for up to 46 guests. Additionally, a
           campground with space for 54 guests offers an alternative lodging
