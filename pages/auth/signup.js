@@ -1,18 +1,3 @@
-/**
- * Title: Write a program using JavaScript on Signup
- * Author: Hasibul Islam
- * Portfolio: https://devhasibulislam.vercel.app
- * Linkedin: https://linkedin.com/in/devhasibulislam
- * GitHub: https://github.com/devhasibulislam
- * Facebook: https://facebook.com/devhasibulislam
- * Instagram: https://instagram.com/devhasibulislam
- * Twitter: https://twitter.com/devhasibulislam
- * Pinterest: https://pinterest.com/devhasibulislam
- * WhatsApp: https://wa.me/8801906315901
- * Telegram: devhasibulislam
- * Date: 08, November 2023
- */
-
 import Button from "@/components/shared/button/Button";
 import LoadImage from "@/components/shared/image/LoadImage";
 import Logo from "@/components/shared/logo/Logo";
@@ -141,7 +126,7 @@ const Signup = () => {
               name="email"
               id="email"
               {...register("email", { required: true })}
-              placeholder="i.e. devhasibulislam@gmail.com"
+              placeholder="i.e. example@gmail.com"
               className=""
             />
           </label>
@@ -153,7 +138,7 @@ const Signup = () => {
               name="password"
               id="password"
               {...register("password", { required: true })}
-              placeholder="i.e. Hasib@123"
+              placeholder="i.e. Example@123"
               className=""
             />
           </label>
@@ -165,7 +150,7 @@ const Signup = () => {
               name="phone"
               id="phone"
               {...register("phone", { required: true })}
-              placeholder="i.e. +8801906315901"
+              placeholder="i.e. +123456789"
               className=""
             />
           </label>
