@@ -7,7 +7,6 @@
 
 With its modern design and intuitive layout, the Home Page welcomes users to an exciting world of personalized booking and rental.
 
-![Overview](./overview.jpg)
 
 ## Features
 
