@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
@@ -139,7 +138,7 @@ const Panel = ({ children }) => {
 
         <footer className="px-4 py-2 flex justify-center items-center flex-row rounded">
           <p className="text-xs">
-            © {new Date().getFullYear()} Travello eBooking. All rights reserved.
+            © {new Date().getFullYear()} wassado eBooking. All rights reserved.
           </p>
         </footer>
       </div>
