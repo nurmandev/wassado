@@ -96,3 +96,9 @@ textarea {
 select {
   @apply form-select rounded text-sm resize-none;
 }
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
