@@ -48,7 +48,6 @@
     "tailwind-scrollbar-hide": "^1.1.7",
     "tailwindcss": "3.3.3",
     "tailwindcss-animate": "^1.0.7",
-    "wassado": "file:",
     "world-countries": "^5.0.0"
   },
   "devDependencies": {
