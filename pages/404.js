@@ -20,7 +20,7 @@ const NotFound = () => {
         href="/"
         className="px-secondary py-2 shadow hover:bg-primary hover:text-white rounded-primary"
       >
-        Go back to Home
+        Go back to Home.
       </Link>
     </section>
   );
