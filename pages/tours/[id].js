@@ -18,26 +18,29 @@ import AllReviews from "@/components/detail/AllReviews";
 const DetailPage = () => {
   const router = useRouter();
   const { data, isLoading, error } = useGetRentQuery(router?.query?.id);
+
+  // Memoize 'tour' based on 'data'
   const tour = useMemo(() => {
     return data?.data || {};
   }, [data]);
+
   const dispatch = useDispatch();
 
   useEffect(() => {
     if (data) {
       toast.success(data?.message, { id: "rent-data" });
-      dispatch(setRent(tour));
+      dispatch(setRent(tour)); // 'tour' is used here
     }
 
     if (error?.data) {
       toast.error(error?.data?.message, { id: "rent-data" });
     }
-  }, [data, error, dispatch]);
+  }, [data, error, dispatch, tour]); // Added 'tour' to the dependency array
 
   return (
     <>
       <Head>
-        <title>{tour?.title}</title>
+        <title>{tour?.title}</title> {/* Using 'tour' to set the title */}
       </Head>
       <Navbar />
       <div className="my-8">
